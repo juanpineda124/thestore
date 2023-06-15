@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Product</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="menu2">
+        <img src="imagenes/logo.png" alt="Logo The store" width="120" height="80" >
+        <ul class="nav">
+            <li><a href="#">Products</a></li>  
+            <li><a href="#">Car</a></li>  
+            <li><a href="#">Login</a></li>  
+            <li><a href="newProduct.html">New Product</a></li>
+            <li><a href="index.html">Homepage</a></li>   
+        </ul>
+        <img src="imagenes/logo.png" alt="Logo The store" width="120" height="80" >
+
+        <section class="formulario">
+            <h2>Create Product</h2>
+            <form id="productForm">
+                <div class="campo">
+                  <label for="name">Name:</label>
+                  <input type="text" id="name" name="name">
+                  <div id="nameError" class="error-message hide"></div>
+                </div>
+                <div class="campo">
+                  <label for="price">Price:</label>
+                  <input type="number" id="price" name="price">
+                  <div id="priceError" class="error-message hide"></div>
+                </div>
+                <div class="campo">
+                  <label for="inventory">Inventory:</label>
+                  <input type="number" id="inventory" name="inventory">
+                  <div id="inventoryError" class="error-message hide"></div>
+                </div>
+                <button type="submit">Create Product</button>
+              </form>
+        </section>
+    </div>
+</body>
+</html>
